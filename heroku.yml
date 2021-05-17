@@ -2,4 +2,4 @@ build:
   docker:
     web: Procfile
 run:
-  worker: /bin/sh -c bash\ start.sh
+  web: python3 -m tgfilestream
