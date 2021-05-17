@@ -1,5 +1,0 @@
-build:
-  docker:
-    web: Procfile
-run:
-  web: python3 -m tgfilestream
